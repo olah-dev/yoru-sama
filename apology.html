@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>For Zee 💌</title>
+<style>
+  body { margin:0; font-family:'Segoe UI', sans-serif; background:#fff0f5; color:#4a2c3a; text-align:center; overflow-x:hidden; }
+  .container { max-width:600px; margin:0 auto; padding:30px 20px 60px; }
+  h1 { font-size:32px; margin-bottom:5px; }
+  .subtitle { color:#b85c7e; font-weight:600; }
+  .card { background:white; border-radius:20px; padding:25px; margin:20px 0; box-shadow:0 10px 25px rgba(0,0,0,0.08); text-align:left; line-height:1.7; }
+  .card b { color:#d63384; }
+  .funny { background:#fff9c4; border-radius:15px; padding:15px; margin:15px 0; }
+  button { border:none; padding:14px 28px; border-radius:50px; font-size:17px; cursor:pointer; margin:10px; font-weight:bold; }
+  #yesBtn { background:#ff4d8d; color:white; }
+  #noBtn { background:#eee; color:#333; }
+  #message { margin-top:20px; font-size:18px; min-height:60px; }
+  .small { font-size:13px; color:#888; margin-top:30px; }
+</style>
+</head>
+<body>
+<div class="container">
+  <div style="font-size:50px;">💌</div>
+  <h1>Hey, Little Child...</h1>
+  <p class="subtitle">Zee. Zainab. My favourite person.</p>
+
+  <div class="card">
+    <p>Okay, deep breath. This is me, no jokes for one minute.</p>
+    <p>I'm sorry for hurting you — <b>for real, in every way I did.</b> Not the "sorry if you felt hurt" kind. The "I know I hurt you, and I own it" kind.</p>
+    <p>You didn't deserve that. You deserved softness, patience, and someone who listens first. I wasn't that person in those moments, and I'm sorry.</p>
+  </div>
+
+  <div class="funny">
+    😅 <b>Small funny truth:</b><br>
+    I tried to act like I had everything under control, but we both know I was just a big baby who didn't know how to say "I'm sorry, I messed up" on time.
+  </div>
+
+  <div class="card">
+    <p>I miss your laugh. I miss how you call me out. I miss <i>us</i> when we're good — the cute, silly, soft us.</p>
+    <p>I'm not here to force you to forget what happened. I just want you to know I see it, I regret it, and I want to do better — if you ever let me.</p>
+    <p>So... one question, no pressure:</p>
+    <h2 style="text-align:center;">Will you forgive me, Zee? 🥺</h2>
+    <div style="text-align:center;">
+      <button id="yesBtn" onclick="sayYes()">Yes 💖</button>
+      <button id="noBtn" onclick="sayNo()">Not yet</button>
+    </div>
+    <div id="message"></div>
+  </div>
+
+  <p class="small">Whatever you choose, I respect it. Take all the time you need. - Your person</p>
+</div>
+
+<script>
+  function sayYes() {
+    document.getElementById('message').innerHTML = "Really?? 🥹💖 Thank you, my Little Child. I promise to love you softer, listen better, and hurt you less. Can I get a hug? And maybe your favourite snack as peace offering?";
+  }
+  function sayNo() {
+    document.getElementById('message').innerHTML = "I understand. 💔 Thank you for being honest with me. I won't pressure you. I'm here, and I'll give you space. When you're ready to talk, I'm ready to listen.";
+  }
+</script>
+</body>
+</html>
